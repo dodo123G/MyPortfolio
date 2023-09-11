@@ -238,7 +238,7 @@ ul {
 .landing {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/img/bg1.jpg");
+  background-image: url("../img/bg1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -456,7 +456,7 @@ ul {
   padding-bottom: var(--section-padding);
   background-color: #ececefad;
 }
-.about .about-container{
+.about .about-container {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -503,7 +503,7 @@ ul {
     display: none !important ;
   }
 }
-@media (max-width:991px) {
+@media (max-width: 991px) {
   .about .image {
     margin: 0 auto;
   }
@@ -515,7 +515,7 @@ ul {
   }
 }
 @media (max-width: 767px) {
-  .about .image img { 
+  .about .image img {
     width: 80%;
   }
 }
@@ -569,7 +569,7 @@ ul {
 /* Start Skills */
 .skills {
   padding-top: var(--section-padding);
-  padding-bottom:  var(--section-padding);
+  padding-bottom: var(--section-padding);
 }
 .skills .container {
   display: flex;
@@ -581,7 +581,7 @@ ul {
     flex-basis: 45%;
   }
 }
-.skills .testimonials h3{
+.skills .testimonials h3 {
   text-align: center;
   margin: 0 0 30px;
   font-size: 25px;
@@ -612,7 +612,7 @@ ul {
 }
 @media (max-width: 767px) {
   .skills .testimonials .info img {
-    margin: 0 auto 15px
+    margin: 0 auto 15px;
   }
 }
 .skills .testimonials .text {
@@ -640,7 +640,7 @@ ul {
   background-color: #12665ed2;
   border: none;
 }
-.our-skills h3{
+.our-skills h3 {
   text-align: center;
   margin: 0 0 30px;
   font-size: 25px;
@@ -682,7 +682,7 @@ ul {
   background-image: linear-gradient(to right, #009688, #4169e1);
 }
 .our-skills .prog span::after {
-  content:'';
+  content: "";
   position: absolute;
   right: -8px;
   top: -15px;
@@ -695,7 +695,7 @@ ul {
 .quote {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url('/assets/img/quote.jpg');
+  background-image: url("../img/quote.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -703,7 +703,7 @@ ul {
   text-align: center;
 }
 .quote::before {
-  content:"";
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -711,7 +711,7 @@ ul {
   height: 100%;
   background-color: rgba(0 0 0 /70%);
 }
-.quote .container{
+.quote .container {
   position: relative;
 }
 .quote q {
@@ -725,7 +725,7 @@ ul {
     font-size: 18px;
   }
 }
-.quote  span {
+.quote span {
   color: white;
   font-weight: 400;
   font-size: 17px;
@@ -755,24 +755,24 @@ ul {
   padding: 20px;
   text-align: left;
 }
-.project  .text-project h3{
+.project .text-project h3 {
   margin: 0 0 10px;
   color: #191d88;
   text-transform: capitalize;
 }
-.project  .text-project p {
+.project .text-project p {
   line-height: 1.7;
   color: #777;
-  font-size: 13px;  
+  font-size: 13px;
 }
-.project  .text-project .link-icons {
+.project .text-project .link-icons {
   padding: 10px 0;
   margin-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.project  .link-icons a {
+.project .link-icons a {
   display: inline-block;
   padding: 8px 10px;
   color: white;
@@ -782,17 +782,17 @@ ul {
   background-color: var(--secondary);
   transition: var(--main-transition);
 }
-.project  .link-icons a:hover {
+.project .link-icons a:hover {
   background-color: var(--secondary);
   transform: rotate(-10deg);
 }
-.project  .link-icons i {
+.project .link-icons i {
   font-weight: bold;
   color: #4169e1;
   animation: go-right 0.5s linear forwards infinite;
 }
 @keyframes go-right {
-  100%{
+  100% {
     transform: translateX(7px);
   }
 }
@@ -811,7 +811,7 @@ ul {
     flex-direction: column;
   }
 }
-.contact .content  form {
+.contact .content form {
   flex-basis: 70%;
 }
 .contact .content .main-input {
@@ -829,7 +829,7 @@ ul {
   margin-left: auto;
   display: flex;
 }
-.contact .content .info h4{
+.contact .content .info h4 {
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 30px;
@@ -880,12 +880,12 @@ ul {
   font-weight: 700;
   font-size: 18px;
 }
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .footer span {
     font-size: 14px;
   }
 }
-.footer .social i{
+.footer .social i {
   margin-left: 15px;
   font-size: 30px;
   transition: var(--main-transition);
@@ -907,7 +907,7 @@ ul {
 .footer .social i:hover:nth-child(3) {
   color: #191d88;
 }
-.footer .social i:hover:last-child{
+.footer .social i:hover:last-child {
   color: #337ccf;
 }
 /* End Footer */
